@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aritza Ganendra Kusuma - Profile</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-white dark:bg-gray-800">
+    <nav
+      class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 border-b dark:border-none fixed w-full z-20 top-0 start-0"
+    >
+      <div
+        class="flex flex-wrap lg:justify-between items-center mx-auto max-w-screen-lg justify-end"
+      >
+        <a href="#" class="flex items-center lg:hidden">
+          <span
+            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+          ></span>
+        </a>
+        <div class="flex items-center lg:order-2">
+          <button
+            data-popover-target="popover-darkMode"
+            id="theme-toggle"
+            type="button"
+            class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+          >
+            <div
+              data-popover
+              id="popover-"
+              role="tooltip"
+              class="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800"
+            >
+              <div class="px-3 py-2">
+                <p>Dark/ Mode</p>
+              </div>
+              <div data-popper-arrow></div>
+            </div>
+            <svg
+              id="theme-toggle-dark-icon"
+              class="hidden w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+              ></path>
+            </svg>
+            <svg
+              id="theme-toggle-light-icon"
+              class="hidden w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <button
+            data-collapse-toggle="mobile-menu-2"
+            type="button"
+            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-2"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg
+              class="hidden w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+          id="mobile-menu-2"
+        >
+          <ul
+            class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-white rounded bg-primary-500 lg:bg-transparent lg:text-primary-500 lg:p-0 dark:text-white transition"
+                aria-current="page"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href="#About"
+                class="rounded block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition"
+                >Tentang Saya</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portofolio"
+                class="rounded block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition"
+                >Portofolio</a
+              >
+            </li>
+            <!-- <li>
+              <a
+                href="#"
+                class="rounded block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent transition"
+                >Kontak</a
+              >
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-white dark:bg-gray-900" style="padding-top: 4rem">
+      <div
+        class="grid max-w-screen-lg mx-auto lg:grid-cols-12 lg:pt-6 py-16 px-4 lg:px-0"
+      >
+        <!-- Image Section: Moves to the top on small screens -->
+        <div
+          class="grid-cols-2 lg:col-span-5 order-1 lg:order-2 mb-8 lg:mb-0 p-4"
+        >
+          <img
+            class="h-auto max-w-full"
+            src="./assets/Pfp.png"
+            alt="image description"
+          />
+        </div>
+
+        <!-- Text Section: Moves below the image on small screens -->
+        <div
+          class="mr-auto place-self-center lg:col-span-7 lg:w-fit order-2 lg:order-1 w-full"
+        >
+          <div
+            class="place-self-center lg:col-span-7 flex items-center justify-center lg:justify-start"
+          >
+            <p
+              class="font-medium text-left text-gray-500 text-lg dark:text-white"
+            >
+              Halo Semuanya, Saya
+            </p>
+          </div>
+          <h1
+            class="text-center lg:text-left mt-1 mb-3 lg:mb-1 text-4xl font-extrabold tracking-normal leading-none md:text-4xl xl:text-2xl text-primary-500"
+          >
+            Aritza Ganendra Kusuma
+          </h1>
+          <p
+            class="text-center lg:text-left font-light text-gray-600 mb-2 md:text-lg lg:text-lg dark:text-gray-400"
+          >
+            Mahasiswa Semester 5 Jurusan D3-Teknik Informatika di
+            <a
+              href="https://dinus.ac.id/en/"
+              target="_blank"
+              class="hover:underline decoration-solid"
+            >
+              Universitas Dian Nuswantoro Semarang
+            </a>
+          </p>
+          <a
+            href="./assets/Aritza_CV.pdf"
+            target="_blank"
+            class="mt-2 inline-flex items-center justify-center text-white bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center lg:inline-flex lg:w-auto w-full mb-2 lg:mb-0 transition"
+          >
+            Download CV
+            <svg
+              class="w-6 h-6 ml-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 18 24"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M13 11.15V4a1 1 0 1 0-2 0v7.15L8.78 8.374a1 1 0 1 0-1.56 1.25l4 5a1 1 0 0 0 1.56 0l4-5a1 1 0 1 0-1.56-1.25L13 11.15Z"
+                clip-rule="evenodd"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M9.657 15.874 7.358 13H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.358l-2.3 2.874a3 3 0 0 1-4.685 0ZM17 16a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H17Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900" id="About">
+      <div
+        class="py-8 px-4 mx-auto max-w-screen-lg sm:py-16 lg:px-0 text-center"
+      >
+        <h2 class="mb-6 text-4xl font-extrabold text-primary-500">
+          Tentang Saya
+        </h2>
+
+        <p
+          class="mb-6 font-light text-gray-600 sm:text-xl dark:text-gray-400 text-justify"
+        >
+          Saya seorang Junior Web Developer yang telah mempelajari tentang
+          Website dengan teknologi Seperti HTML, CSS, JavaScript, PHP dan
+          framework seperti Bootstrap, Tailwind, CodeIgniter, dan Laravel. Di
+          bidang UI/UX, saya fokus pada pembuatan desain yang user-friendly dan
+          estetis, dengan pengalaman dalam menggunakan tools seperti Figma
+        </p>
+        <p
+          class="mb-8 font-light text-gray-600 sm:text-xl dark:text-gray-400 text-justify"
+        >
+          Melalui berbagai proyek dan tugas kuliah, saya telah membangun
+          keterampilan dalam mengembangkan aplikasi web yang responsif, serta
+          merancang antarmuka yang intuitif dan menarik bagi pengguna. Saya
+          berkomitmen untuk terus belajar dan mengasah kemampuan saya dalam
+          menciptakan solusi teknologi yang inovatif dan berdaya guna.
+        </p>
+
+        <div class="flex flex-wrap items-center justify-center align-middle">
+          <img
+            class="h-full w-9 p-2 mr-2"
+            src="./assets/HTML.png"
+            alt="image description"
+          />
+
+          <img
+            class="h-full w-9 p-2 mr-2"
+            src="./assets/CSS.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-11 p-2 rounded"
+            src="./assets/JS.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/Bootstrap.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/tailwind.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/java.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/C++.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/PHP.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-10 p-2"
+            src="./assets/CI.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-10 p-2"
+            src="./assets/Laravel.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-10 p-2"
+            src="./assets/MySQL.png"
+            alt="image description"
+          />
+          <img
+            class="h-full w-12 p-2"
+            src="./assets/Figma.png"
+            alt="image description"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900 antialiased" id="portofolio">
+      <div
+        class="max-w-screen-lg px-4 mx-auto lg:px-0 pt-8 lg:pt-0 py-8"
+        style="
+          background-image: url(./assets/grid.png);
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      >
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-extrabold leading-tight text-primary-500 sm:text-4xl"
+          >
+            Portofolio
+          </h2>
+          <p
+            class="mt-4 text-lg font-medium text-gray-500 sm:text-md dark:text-white"
+          >
+            Beberapa Project yang telah saya kembangkan
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 lg:grid-cols-2"
+        >
+          <div class="space-y-4 rounded-lg">
+            <figure
+              class="relative overflow-hidden transition-all duration-300 cursor-pointer hover:grayscale-0 rounded-lg group"
+            >
+              <a
+                href="https://github.com/ValKyRiE2117/VeggiePack"
+                target="_blank"
+                class="relative block"
+              >
+                <img
+                  class="w-full rounded-lg transition-transform duration-300 group-hover:scale-105 group-hover:blur-[2px]"
+                  src="./assets/Project1.jpeg"
+                  alt="image description"
+                />
+                <figcaption
+                  class="absolute inset-0 flex flex-col items-center justify-center px-4 text-lg text-white bg-black bg-opacity-40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-center"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Github Page
+                </figcaption>
+              </a>
+            </figure>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-bold leading-tight text-primary-500">
+                VeggiePack
+              </h3>
+              <div class="flex items-center">
+                <img
+                  class="h-full w-9 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/HTML.png"
+                  alt="image description"
+                />
+
+                <img
+                  class="h-full w-9 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/CSS.png"
+                  alt="image description"
+                />
+                <img
+                  class="h-full w-12 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/Bootstrap.png"
+                  alt="image description"
+                />
+                <img
+                  class="h-full w-10 p-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/CI.png"
+                  alt="image description"
+                />
+                <img
+                  class="h-full w-10 p-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/MySQL.png"
+                  alt="image description"
+                />
+              </div>
+            </div>
+
+            <p
+              class="text-md font-normal text-gray-500 dark:text-gray-400 text-justify"
+            >
+              Website E-Commerce penjualan sayur lengkap dengan Dashboard Admin
+              untuk Ujian Sertifikasi I - Pemrograman Web
+            </p>
+            <div class="w-full lg:w-fit">
+              <a
+                href="https://github.com/ValKyRiE2117/VeggiePack"
+                target="_blank"
+                class="inline-flex items-center p-4 text-base font-medium text-gray-500 rounded-lg bg-gray-100 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white content-center"
+              >
+                <svg
+                  class="w-[28px] h-[28px]"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="w-full">Github Page</span>
+                <svg
+                  class="w-4 h-4 ms-2 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="space-y-4 rounded-lg">
+            <figure
+              class="relative overflow-hidden transition-all duration-300 cursor-pointer hover:grayscale-0 rounded-lg group"
+            >
+              <a
+                href="https://github.com/ValKyRiE2117/VenueHive"
+                target="_blank"
+                class="relative block"
+              >
+                <img
+                  class="w-full rounded-lg transition-transform duration-300 group-hover:scale-105 group-hover:blur-[2px]"
+                  src="./assets/project2.jpeg"
+                  alt="image description"
+                />
+                <figcaption
+                  class="absolute inset-0 flex flex-col items-center justify-center px-4 text-lg text-white bg-black bg-opacity-40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-center"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  Github Page
+                </figcaption>
+              </a>
+            </figure>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-bold leading-tight text-primary-500">
+                VenueHive
+              </h3>
+              <div class="flex items-center">
+                <img
+                  class="h-full w-9 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/HTML.png"
+                  alt="image description"
+                />
+
+                <img
+                  class="h-full w-9 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/CSS.png"
+                  alt="image description"
+                />
+                <img
+                  class="h-full w-12 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/tailwind.png"
+                  alt="image description"
+                />
+              </div>
+            </div>
+
+            <p
+              class="text-md font-normal text-gray-500 dark:text-gray-400 text-justify"
+            >
+              Design Website Peminjaman Ruangan yang dibuat untuk Proyek Akhir
+              Matakuliah Multimedia (UI/UX)
+            </p>
+            <div class="w-full lg:w-fit">
+              <a
+                href="https://github.com/ValKyRiE2117/VenueHive"
+                target="_blank"
+                class="inline-flex items-center p-4 text-base font-medium text-gray-500 rounded-lg bg-gray-100 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+              >
+                <svg
+                  class="w-[28px] h-[28px]"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span class="w-full">Github Page</span>
+                <svg
+                  class="w-4 h-4 ms-2 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="space-y-4 rounded-lg">
+            <figure
+              class="relative overflow-hidden transition-all duration-300 cursor-pointer hover:grayscale-0 rounded-lg group"
+            >
+              <a
+                href="https://www.figma.com/design/G3UGVmjjAkg2prKaucSWwQ/StayBook?node-id=0-1&t=lie0lWsCjvS8XXlC-1"
+                target="_blank"
+                class="relative block"
+              >
+                <img
+                  class="w-full rounded-lg transition-transform duration-300 group-hover:scale-105 group-hover:blur-[2px]"
+                  src="./assets/project3.jpeg"
+                  alt="image description"
+                />
+                <figcaption
+                  class="absolute inset-0 flex flex-col items-center justify-center px-4 text-lg text-white bg-black bg-opacity-40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-center"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5"
+                    viewBox="0 0 22 31"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_4151_63004)">
+                      <path
+                        d="M5.50085 30.1242C8.53625 30.1242 10.9998 27.8749 10.9998 25.1035V20.0828H5.50085C2.46546 20.0828 0.00195312 22.332 0.00195312 25.1035C0.00195312 27.8749 2.46546 30.1242 5.50085 30.1242Z"
+                        fill="#0ACF83"
+                      />
+                      <path
+                        d="M0.00195312 15.062C0.00195312 12.2905 2.46546 10.0413 5.50085 10.0413H10.9998V20.0827H5.50085C2.46546 20.0827 0.00195312 17.8334 0.00195312 15.062Z"
+                        fill="#A259FF"
+                      />
+                      <path
+                        d="M0.00195312 5.02048C0.00195312 2.24904 2.46546 -0.000244141 5.50085 -0.000244141H10.9998V10.0412H5.50085C2.46546 10.0412 0.00195312 7.79193 0.00195312 5.02048Z"
+                        fill="#F24E1E"
+                      />
+                      <path
+                        d="M11 -0.000244141H16.4989C19.5343 -0.000244141 21.9978 2.24904 21.9978 5.02048C21.9978 7.79193 19.5343 10.0412 16.4989 10.0412H11V-0.000244141Z"
+                        fill="#FF7262"
+                      />
+                      <path
+                        d="M21.9978 15.062C21.9978 17.8334 19.5343 20.0827 16.4989 20.0827C13.4635 20.0827 11 17.8334 11 15.062C11 12.2905 13.4635 10.0413 16.4989 10.0413C19.5343 10.0413 21.9978 12.2905 21.9978 15.062Z"
+                        fill="#1ABCFE"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_4151_63004">
+                        <rect
+                          width="22"
+                          height="30.1244"
+                          fill="white"
+                          transform="translate(0 -0.000244141)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Figma File
+                </figcaption>
+              </a>
+            </figure>
+            <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-bold leading-tight text-primary-500">
+                StayBook
+              </h3>
+              <div class="flex items-center">
+                <img
+                  class="h-full w-9 p-2 mr-2 hover:bg-gray-200 rounded dark:hover:bg-gray-800"
+                  src="./assets/Figma.png"
+                  alt="image description"
+                />
+              </div>
+            </div>
+
+            <p
+              class="text-md font-normal text-gray-500 dark:text-gray-400 text-justify"
+            >
+              Design Aplikasi Mobile Booking Hotel (UI/UX)
+            </p>
+            <div class="w-full lg:w-fit">
+              <a
+                href="https://www.figma.com/design/G3UGVmjjAkg2prKaucSWwQ/StayBook?node-id=0-1&t=lie0lWsCjvS8XXlC-1"
+                target="_blank"
+                class="inline-flex items-center p-4 text-base font-medium text-gray-500 rounded-lg bg-gray-100 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 me-2"
+                  viewBox="0 0 22 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4151_63004)">
+                    <path
+                      d="M5.50085 30.1242C8.53625 30.1242 10.9998 27.8749 10.9998 25.1035V20.0828H5.50085C2.46546 20.0828 0.00195312 22.332 0.00195312 25.1035C0.00195312 27.8749 2.46546 30.1242 5.50085 30.1242Z"
+                      fill="#0ACF83"
+                    />
+                    <path
+                      d="M0.00195312 15.062C0.00195312 12.2905 2.46546 10.0413 5.50085 10.0413H10.9998V20.0827H5.50085C2.46546 20.0827 0.00195312 17.8334 0.00195312 15.062Z"
+                      fill="#A259FF"
+                    />
+                    <path
+                      d="M0.00195312 5.02048C0.00195312 2.24904 2.46546 -0.000244141 5.50085 -0.000244141H10.9998V10.0412H5.50085C2.46546 10.0412 0.00195312 7.79193 0.00195312 5.02048Z"
+                      fill="#F24E1E"
+                    />
+                    <path
+                      d="M11 -0.000244141H16.4989C19.5343 -0.000244141 21.9978 2.24904 21.9978 5.02048C21.9978 7.79193 19.5343 10.0412 16.4989 10.0412H11V-0.000244141Z"
+                      fill="#FF7262"
+                    />
+                    <path
+                      d="M21.9978 15.062C21.9978 17.8334 19.5343 20.0827 16.4989 20.0827C13.4635 20.0827 11 17.8334 11 15.062C11 12.2905 13.4635 10.0413 16.4989 10.0413C19.5343 10.0413 21.9978 12.2905 21.9978 15.062Z"
+                      fill="#1ABCFE"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4151_63004">
+                      <rect
+                        width="22"
+                        height="30.1244"
+                        fill="white"
+                        transform="translate(0 -0.000244141)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span class="w-full ms-2">Figma File</span>
+                <svg
+                  class="w-4 h-4 ms-2 rtl:rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 14 10"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="shadow bg-gray-800 m-4 p-1">
+      <div class="w-full max-w-screen-lg mx-auto py-4 md:py-8">
+        <p class="text-center text-gray-400">© 2024 Aritza Ganendra Kusuma</p>
+      </div>
+    </footer>
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
+
+<script>
+  // Select the button and both icons
+  const themeToggleBtn = document.getElementById("theme-toggle");
+  const darkIcon = document.getElementById("theme-toggle-dark-icon");
+  const lightIcon = document.getElementById("theme-toggle-light-icon");
+
+  // Check the current theme
+  const currentTheme = localStorage.getItem("theme") || "light";
+
+  // Initialize the icons based on the current theme
+  if (currentTheme === "dark") {
+    darkIcon.classList.remove("hidden");
+    lightIcon.classList.add("hidden");
+    document.documentElement.classList.add("dark");
+  } else {
+    lightIcon.classList.remove("hidden");
+    darkIcon.classList.add("hidden");
+  }
+
+  // Add event listener for theme toggle
+  themeToggleBtn.addEventListener("click", () => {
+    // Toggle icons
+    darkIcon.classList.toggle("hidden");
+    lightIcon.classList.toggle("hidden");
+
+    // Toggle theme
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    }
+  });
+</script>
